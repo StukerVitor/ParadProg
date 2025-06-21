@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParadProg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b2610e02b17aec785af28f7064981870cc3a31f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParadProg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParadProg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

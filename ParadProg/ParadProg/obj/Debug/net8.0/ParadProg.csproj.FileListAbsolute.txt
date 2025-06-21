@@ -12,3 +12,4 @@ C:\Users\vitor\OneDrive\Documentos\Unisinos\2025.1\4. Paradigmas Prog\Aula 7\Par
 C:\Users\vitor\OneDrive\Documentos\Unisinos\2025.1\4. Paradigmas Prog\Aula 7\ParadProg\ParadProg\obj\Debug\net8.0\ParadProg.pdb
 C:\Users\vitor\OneDrive\Documentos\Unisinos\2025.1\4. Paradigmas Prog\Aula 7\ParadProg\ParadProg\obj\Debug\net8.0\ParadProg.genruntimeconfig.cache
 C:\Users\vitor\OneDrive\Documentos\Unisinos\2025.1\4. Paradigmas Prog\Aula 7\ParadProg\ParadProg\obj\Debug\net8.0\ref\ParadProg.dll
+C:\Users\vitor\OneDrive\Documentos\Unisinos\2025.1\4. Paradigmas Prog\Aula 7\ParadProg\ParadProg\obj\Debug\net8.0\ParadProg.sourcelink.json

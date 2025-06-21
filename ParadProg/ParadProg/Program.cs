@@ -98,3 +98,23 @@
         public IdadeInvalidaException(string message, Exception inner) : base(message, inner) { }
     }
 }
+
+/* Resultados
+    Sem lock: esperado 2.000.000, obtido 1.111.318
+    Com lock: esperado 2.000.000, obtido 2.000.000
+
+    Sem a proteção de lock, as duas threads acessaram a variável contadora 
+    simultaneamente, fazendo com que diversos incrementos se perdessem devido 
+    às condições de corrida; por isso o total final (1 111 318) ficou bem 
+    abaixo do esperado (2 000 000). Já com o lock, cada incremento foi 
+    executado de forma mutuamente exclusiva, eliminando interferências entre 
+    as threads e garantindo o valor exato de 2 000 000. Esses resultados 
+    demonstram na prática como a sincronização é essencial para preservar a 
+    consistência de dados em ambientes concorrentes.
+    ------------------------------------------------
+    10 / 2 = 5
+    10 / 0 = 8
+    ------------------------------------------------
+    Idade 25 é válida.
+    Idade 10 fora do intervalo permitido (18-100).
+*/
