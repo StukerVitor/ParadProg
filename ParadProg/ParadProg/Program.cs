@@ -1,8 +1,4 @@
-﻿// Compilar e executar com: dotnet run
-using System;
-using System.Threading;
-
-namespace ExemploThreadsEExcecoes
+﻿namespace ExemploThreadsEExcecoes
 {
     class Program
     {
